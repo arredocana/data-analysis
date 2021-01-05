@@ -1,0 +1,23 @@
+git init
+git status -s
+git add file.txt # añadir al staging area
+git commit -m "explicar cambios"
+git commit -am "explicar cambios" # añadir y commit
+git log --oneline # ver commits realizados
+
+git reset --hard # restore file commit id
+git add . # agregamos todos los archivos del proyecto
+
+git commit --amend #editor vim
+
+git tag 15-09-20v1 -m "Versión 1 del proyecto"
+git push --tags # subir tags a remoto
+
+git push => local a remoto
+git pull => remoto a local
+git fetch 
+
+
+
+
+ 
