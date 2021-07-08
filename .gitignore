@@ -1,0 +1,8 @@
+.vscode/*
+.vscode/settings.json
+*.code-workspace
+spark-warehouse
+.ipynb_checkpoints
+
+# Local History for Visual Studio Code
+.history/
